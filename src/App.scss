@@ -1,5 +1,8 @@
+@use './Common/css/variables' as v;
+
 .app {
   background-color: white;
+  font-family: v.$fontStyle_bitter;
 }
 
 .App-logo {
