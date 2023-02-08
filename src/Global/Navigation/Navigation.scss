@@ -1,0 +1,13 @@
+@use '../../Common/css/variables' as v;
+@use '../../Common/css/breakpoints' as b;
+
+.navigation-main-row {
+    background-color: v.$black;
+    text-align: center;
+}
+
+@media (max-width: b.$x-small) {
+    .navigation-main-title {
+        font-size: 20px;
+    }
+}
